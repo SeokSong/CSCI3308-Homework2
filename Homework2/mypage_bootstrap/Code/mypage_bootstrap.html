@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <nav class="navbar navbar-expand-sm bg-light">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="forms.html">Forms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../signup-modal/login.html">Sign up Modal</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../tic-tac-toe/tic-tac-toe.html">Tic Tac Toe Game</a>
+      </li>
+    </ul>
+
+  </nav>
+    <head>
+        <title>About Me</title>
+      </head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="scripts/addTweet.js"></script>
+
+    <body>
+        <div class="container-fluid">
+            <h1>Seok-Jun Song<small> - Software Development Tools and Methods</small></h1>
+            <p class="card bg-light" style="width:auto">
+                <br>Fun fact, I was born in South Korea and moved here when I was about 5<br><br>
+            </p>
+            <h2>My Professional Profile</h2>
+            <a href="https://github.com/SeokSong" class="button"><button type="button" class="btn btn-light">Seok's GitHub</button></a>
+            <br>
+            <br>
+            <img src="../img/Profile.jpg" class="rounded-circle" height="350" width="300" alt="A wonderful picture of me">
+            <h3>My Favorite Projects</h3>
+            <table class="table">
+                <tr>
+                    <th>#</th>
+                    <th>Name of the Project</th>
+                    <th>Technologies Used</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>UNO</td>
+                    <td>C/C++</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>CU Sprint</td>
+                    <td>HTML/CSS, SQL, C#</td>
+                </tr>
+            </table>
+            <br>
+            <h3> Interest </h3>
+            <div style="text-align: center";>
+              </br>
+                <a href="forms.html" class="btn btn-primary">Add Interest</a>
+              </br>
+            </div>
+            <br> </br>
+            <div class ="row">
+                <div class = "col-sm-4">
+                  <div class="card" style="width: 18rem;" id = "interest1">
+                    <img class="card-img-top" src="../img/bio.jpg" height="200" width="200" alt="Biology">
+                    <a href = "#" class = "fa fa-twitter" onclick = "addCard(interest1)"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Biology</h5>
+                      <p class="card-text">I like Biology because it is always around us.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class = "col-sm-4">
+                  <div class="card" style="width: 18rem;" id = "interest2">
+                    <img class="card-img-top" src="../img/usaswim.png" height="200" width="200" alt="USA Swim Logo">
+                    <a href = "#" class = "fa fa-twitter" onclick = "addCard(interest2)" align = "left"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Swimming</h5>
+                      <p class="card-text">I used to swim in highschool and is a good stress reliever. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class = "col-sm-4">
+                  <div class="card" style="width: 18rem;" id = "interest3">
+                    <img class="card-img-top" src="../img/space.jpg" height="200" width="200" alt="Space">
+                    <a href = "#" class = "fa fa-twitter" onclick = "addCard(interest3)"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Space</h5>
+                      <p class="card-text">I enjoy space because there is so much about it that we dont know.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+</html>
